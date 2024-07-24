@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Company</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .product-card {
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Watch Co.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h1 class="display-4">Exquisite Timepieces</h1>
+</div>
+
+<!-- Products Section -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Our Products</h2>
+    <div class="row">
+        <!-- Product 1 -->
+        <div class="col-md-4 mb-4">
+            <a href="product-details.html" class="text-decoration-none text-dark">
+                <div class="card product-card">
+                    <img src="watch1.jpg" class="card-img-top" alt="Watch 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Classic Watch</h5>
+                        <p class="card-text display-4 text-primary">$199.99</p>
+                        <a href="checkout.html" class="btn btn-success btn-lg">Buy Now</a>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-md-4 mb-4">
+            <a href="product-details.html" class="text-decoration-none text-dark">
+                <div class="card product-card">
+                    <img src="watch2.jpg" class="card-img-top" alt="Watch 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Elegant Watch</h5>
+                        <p class="card-text display-4 text-primary">$249.99</p>
+                        <a href="checkout.html" class="btn btn-success btn-lg">Buy Now</a>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- Product 3 -->
+        <div class="col-md-4 mb-4">
+            <a href="product-details.html" class="text-decoration-none text-dark">
+                <div class="card product-card">
+                    <img src="watch3.jpg" class="card-img-top" alt="Watch 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Luxury Watch</h5>
+                        <p class="card-text display-4 text-primary">$299.99</p>
+                        <a href="checkout.html" class="btn btn-success btn-lg">Buy Now</a>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light py-4 mt-5">
+    <div class="container text-center">
+        <p class="mb-0">© 2024 Watch Company. All Rights Reserved.</p>
+        <p class="mb-0">Follow us on:
+            <a href="#" class="text-dark">Facebook</a> |
+            <a href="#" class="text-dark">Instagram</a> |
+            <a href="#" class="text-dark">Twitter</a>
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
